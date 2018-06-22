@@ -28,3 +28,6 @@ $react-clock-options:(
 ```jsx
 BACKUP_USAGE
 ```
+
+## resouces:
++ https://cssanimation.rocks/clocks/

@@ -65,3 +65,6 @@ class App extends React.Component{
 }
 
 ```
+
+## resouces:
++ https://cssanimation.rocks/clocks/
