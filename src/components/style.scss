@@ -1,16 +1,16 @@
 $react-clock-options:(
-
+  base-size: 20em
 )!default;
 
 .react-clock{
+  $base-size: map-get($map: $react-clock-options, $key: base-size);
   //station_clock.svg
-  height: 20em;
-  width: 20em;
+  height: $base-size;
+  width: $base-size;
   background: #eee url(https://cssanimation.rocks/images/posts/clocks/ios_clock.svg) no-repeat center;
   background-size: 88%;
-  padding-bottom: 31%;
   position: relative;
-  border: 20px solid #000;
+  border: 10px solid #000;
 
   &,
   .hours-container{
