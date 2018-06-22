@@ -59,7 +59,7 @@ export default class extends Component{
   render(){
     const { className, ...props } = this.props;
     return (
-      <section className={classNames('react-clock', className)}>
+      <section className={classNames('react-clock', className)} {...props}>
         <div className="hours-container">
           <i className="hours"/>
         </div>
